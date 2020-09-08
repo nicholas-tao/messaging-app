@@ -11,7 +11,7 @@ function App() {
       <Dashboard id={id} />
     </ContactsProvider>
   );
-  return id ? <Dashboard id={id} /> : <Login onIdSubmit={setId} />;
+  return id ? dashboard : <Login onIdSubmit={setId} />;
 }
 
 export default App;
